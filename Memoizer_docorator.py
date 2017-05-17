@@ -25,3 +25,15 @@ class Memoize(object):
 # @Memoize
 # def func():
 #   pass
+
+
+# FASTEST MEMOIZATION  for function with single argument
+def Mem(func):
+
+    class Wrapper(dict):
+
+        def __missing__(self, key):
+            ret = self[key] = func(key)
+            return ret
+
+    return Wrapper().__getitem__
