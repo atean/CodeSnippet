@@ -23,3 +23,6 @@
 'The MRO calculation contraints are'
 '- a class always precedes its parents'
 '- multiple base classes followes the order of base class tuple'
+'a namespace is a mapping from names to objects'
+'scopes are defined statically but are used dynamically'
+'scopes is the textual region of python program where the namespace is directly accessible (without any prefixing)'
