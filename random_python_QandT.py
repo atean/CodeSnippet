@@ -26,3 +26,17 @@
 'a namespace is a mapping from names to objects'
 'scopes are defined statically but are used dynamically'
 'scopes is the textual region of python program where the namespace is directly accessible (without any prefixing)'
+'Truth value testing is used to find the bool of any object'
+'z = x and y  -- if x is false then x else y'
+'z = x or y --  if x is false then y else x'
+'floating point arithmatic, its issues and limitations-'
+'when we input a decimal fraction like var = 0.1 in python , python actually stores the approximated binary fracion value in the macine because there are many decmial fractions which cannot be exactly represented as binary fractions.'
+' - this is similar to decimal fracion 1/3 which is 0.333333.... and infinite 3  '
+' python sorting '
+
+'python generator can only be iterated once and and same as the iterator'
+'because the all values are not kept in memory at the same time because they are generated on the fly'
+' a, b = b, a+b '
+' - this expression is evaluated in two phases 1)tuple packing 2)sequence unpacking'
+
+
