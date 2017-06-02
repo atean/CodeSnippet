@@ -34,9 +34,15 @@
 ' - this is similar to decimal fracion 1/3 which is 0.333333.... and infinite 3  '
 ' python sorting '
 
-'python generator can only be iterated once and and same as the iterator'
+'python generator can only be iterated once and and same goes for the iterator'
 'because the all values are not kept in memory at the same time because they are generated on the fly'
 ' a, b = b, a+b '
 ' - this expression is evaluated in two phases 1)tuple packing 2)sequence unpacking'
 
-
+'how to simulate the list builtin methods'
+'list builtin methods'
+'dictionary builtin methods'
+'methods on string object always returns a new string object. For list there are some methods which mutates the list in place'
+'- like the sort, extend method '
+'-list comprehension always creates a new list unaltering the oringinal list'
+'simulate itertools methods as well as other builtin methods on core objects'
